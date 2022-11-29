@@ -100,6 +100,7 @@ resource r_dataLakeStorageAccount 'Microsoft.Storage/storageAccounts@2021-02-01'
       ]
     }
   }
+  minimumTlsVersion: 'TLS1_2'
   kind: 'StorageV2'
   sku: {
     name: dataLakeAccountSKU

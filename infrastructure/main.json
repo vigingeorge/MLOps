@@ -238,6 +238,7 @@
                 }
               },
               "kind": "StorageV2",
+              "minimumTlsVersion": "TLS1_2",
               "sku": {
                 "name": "[parameters('dataLakeAccountSKU')]"
               },
